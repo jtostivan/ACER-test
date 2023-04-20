@@ -308,6 +308,10 @@ div.card {
   min-width: 21vw;
 }
 
+p.card-text {
+  font-size: 16px;
+}
+
 img.card-img-top {
   width: 100%;
   object-fit: cover;
@@ -400,4 +404,116 @@ div.footer-copyright {
   margin-right: 20%;
   font-size: 10px;
   margin-top: 8px;
+}
+
+/* ______________________MEDIA QUERIES______________________ */
+@media only screen and (max-width: 992px) {
+  div.hero-1-text h1 {
+    font-size: 3em;
+  }
+
+  div.hero-1-text h5 {
+    font-size: 1em;
+  }
+
+  div.hero-1-text p {
+    font-size: 1em;
+  }
+  .navbar-brand img {
+    width: 100px;
+    height: 100%;
+  }
+
+  .navbar-brand-text {
+    font-size: 10px;
+    max-width: 80px;
+    line-height: 10px;
+    margin-top: 6px;
+  }
+
+  .navbar-nav {
+    margin-left: 0;
+  }
+
+  a.nav-link {
+    color: #000;
+    margin-left: 10px;
+    font-size: 14px;
+  }
+  .btn-green {
+    width: 150px;
+    height: 50px;
+    font-size: 14px;
+    margin-top: 10px;
+  }
+
+  div.divider-1 {
+    height: 40%;
+  }
+
+  div.divider-text h1 {
+    font-size: 1.5em;
+  }
+
+  div.divider-icons {
+    width: 80%;
+  }
+
+  img.divider-img {
+    height: 80px;
+  }
+
+  div.icon-caption {
+    font-size: 0.8em;
+  }
+
+  div.hero-2-text p {
+    font-size: 1em;
+    max-width: 50%;
+  }
+
+  div.hero-3 {
+    height: 80%;
+  }
+
+  img.divider-img-sm {
+    height: 65px;
+  }
+
+  img.divider-img-xs {
+    height: 65px;
+  }
+
+  div.divider-icons-sm {
+    width: 100%;
+    padding-top: 20px;
+  }
+
+  div.icon-caption-sm {
+    font-size: 10px;
+    padding-top: 10px;
+    max-width: 95%;
+    padding-bottom: 20px;
+  }
+
+  h3.section-3-subheader {
+    margin-top: 30px;
+  }
+
+  div.divider-icons-card {
+    width: 100%;
+  }
+
+  p.card-text {
+    font-size: 10px;
+  }
+
+  div.card-text-left {
+    font-size: 8px;
+    padding: 0;
+    text-align: center;
+  }
+  div.card-text-right {
+    font-size: 8px;
+  }
 }
